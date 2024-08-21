@@ -7,6 +7,10 @@
  * python3 -m venv .venv
  * source .venv/bin/activate
 
+ * sudo apt update
+ * sudo apt install unixodbc unixodbc-dev
+
+
 --------------------------------------------------
  - pode ser criado um diretorio para suas aplicações
  * mkdir ~/Aplicações
