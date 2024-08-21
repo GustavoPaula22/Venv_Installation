@@ -7,9 +7,18 @@
  * python3 -m venv .venv
  * source .venv/bin/activate
 
+--------------------------------------------------
+ - Configurando SQL Server 
  * sudo apt update
  * sudo apt install unixodbc unixodbc-dev
 
+ * sudo su
+ * curl https://packages.microsoft.com/keys/microsoft.asc | apt-key add -
+ * curl https://packages.microsoft.com/config/ubuntu/20.04/prod.list > /etc/apt/sources.list.d/mssql-release.list
+ * exit
+
+ * sudo apt update
+ * sudo ACCEPT_EULA=Y apt install msodbcsql17
 
 --------------------------------------------------
  - pode ser criado um diretorio para suas aplicações
